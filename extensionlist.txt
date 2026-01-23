@@ -30,6 +30,7 @@ VK_EXT_discard_rectangles
 VK_EXT_conservative_rasterization
 VK_EXT_depth_clip_enable
 VK_EXT_sampler_filter_minmax
+VK_EXT_descriptor_heap
 VK_EXT_inline_uniform_block
 VK_EXT_sample_locations
 VK_EXT_blend_operation_advanced
@@ -62,6 +63,7 @@ VK_EXT_depth_bias_control
 VK_EXT_device_memory_report
 VK_EXT_robustness2
 VK_EXT_custom_border_color
+VK_EXT_texture_compression_astc_3d
 VK_EXT_private_data
 VK_EXT_pipeline_creation_cache_control
 VK_EXT_descriptor_buffer
@@ -123,7 +125,9 @@ VK_EXT_fragment_density_map_offset
 VK_EXT_zero_initialize_device_memory
 VK_EXT_shader_64bit_indexing
 VK_EXT_custom_resolve
+VK_EXT_shader_long_vector
 VK_EXT_shader_uniform_buffer_unsized_array
+VK_EXT_shader_subgroup_partitioned
 HUAWEI
 VK_HUAWEI_subpass_shading
 VK_HUAWEI_invocation_mask
@@ -190,6 +194,7 @@ VK_KHR_present_wait2
 VK_KHR_ray_tracing_position_fetch
 VK_KHR_pipeline_binary
 VK_KHR_swapchain_maintenance1
+VK_KHR_internally_synchronized_queues
 VK_KHR_cooperative_matrix
 VK_KHR_compute_shader_derivatives
 VK_KHR_video_encode_av1
@@ -260,8 +265,10 @@ VK_NV_shader_atomic_float16_vector
 VK_NV_ray_tracing_validation
 VK_NV_cluster_acceleration_structure
 VK_NV_partitioned_acceleration_structure
+VK_NV_push_constant_bank
 VK_NV_cooperative_matrix2
 VK_NV_present_metering
+VK_NV_compute_occupancy_priority
 NVX
 VK_NVX_multiview_per_view_attributes
 OHOS
