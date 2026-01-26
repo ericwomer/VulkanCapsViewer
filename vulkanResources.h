@@ -604,6 +604,7 @@ namespace vulkanResources {
 			STR(VIDEO_DECODE_BIT_KHR);
 			STR(VIDEO_ENCODE_BIT_KHR);
 			STR(OPTICAL_FLOW_BIT_NV);
+			STR(DATA_GRAPH_BIT_ARM);
 #undef STR
 		default: return "UNKNOWN_FLAG (" + toHexString(queueBit) + ")";
 		};
